@@ -1,0 +1,50 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "Товар1",
+    "price": 52,
+    "img": "img/items1.png"
+  },
+  {
+    "id_product": 2,
+    "product_name": "Товар2",
+    "price": 30,
+    "img": "img/items2.png"
+  },
+  {
+    "id_product": 3,
+    "product_name": "Товар3",
+    "price": 55,
+    "img": "img/items3.png"
+  },
+  {
+    "id_product": 4,
+    "product_name": "Товар4",
+    "price": 90,
+    "img": "img/items4.png"
+  },
+  {
+    "id_product": 5,
+    "product_name": "Товар5",
+    "price": 88,
+    "img": "img/items5.png"
+  },
+  {
+    "id_product": 6,
+    "product_name": "Товар6",
+    "price": 43,
+    "img": "img/items6.png"
+  },
+  {
+    "id_product": 7,
+    "product_name": "Товар7",
+    "price": 25,
+    "img": "img/items7.png"
+  },
+  {
+    "id_product": 8,
+    "product_name": "Товар8",
+    "price": 77,
+    "img": "img/items8.png"
+  }
+]

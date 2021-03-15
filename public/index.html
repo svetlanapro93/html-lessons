@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f64db6ab7d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id ="app">
+    <div class="header">
+        <div class="container">
+            <div class="container-header">
+                    <a class="logo" href="#"><img src="img/logo.png" alt="лого"><span class="logo_span">BRAN<span class="logo_span_pink">D</span></span></a>
+                <form class="header-form" action="#">
+                    <input class="input-Browse" type="submit" value="Browse"><input class="input-Search"type="text" placeholder="Search for Item..."><button class="awesome-search" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+
+                <a class="header_cart" href="#">
+<!--                    <img src="img/cart.png" alt="продуктовая корзина">-->
+<!--                    <div class="cart-block">-->
+
+    <cart></cart>
+
+
+
+<!--                        <div class="cart-item">-->
+<!--                            <img class="cart-img" src="img/items1.png" alt="">-->
+<!--                            <div class="product-desc">-->
+<!--                                <p class="product-title">Ноут</p>-->
+<!--                                <p class="product-single-price">100</p>-->
+<!--                            </div>-->
+<!--                            <img class="cart-close" src="img/close.png" alt="">-->
+<!--                        </div>-->
+<!--                        <div class="cart-block-wrapper">-->
+<!--                            <div class="cart-block-wrapper__total">-->
+<!--                                <p class="cart-block__p">Total</p>-->
+<!--                                <p class="cart-block__summ"></p>-->
+<!--                            </div>-->
+<!--                            <a class="cart-block__checkout" href="checkout.html">Checkout</a>-->
+<!--                            <a class="cart-block__cart" href="shopping_cart.html">Go to cart</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                </a>
+                <input class="input-Account" type="submit" value="My Account">
+            </div>
+        </div>
+    </div>
+    <nav>
+        <a href="#" class="section-nav">HOME</a>
+        <a href="#" class="section-nav">MAN</a>
+        <a href="#" class="section-nav">WOMAN</a>
+        <a href="#" class="section-nav">KIDS</a>
+        <a href="#" class="section-nav">ACCOSERIES</a>
+        <a href="#" class="section-nav">FEAURED</a>
+        <a href="#" class="section-nav">HOT DEALS </a>
+    </nav>
+    <div class="main">
+        <section class="section1">
+            <div class="container">
+                <div class="slider__the-brand">
+                    <h1 class="section1-h1">THE BRAND</h1>
+                     <p class="section1-p">OF LUXERIOUS <span class="section1-p-span"> FASHION</span></p>
+                </div>
+            </div>
+        </section>
+        <article class="category">
+            <div class="container">
+                <div class="container-category">
+                    <div class="category-for-men">
+                        <a class="link-category" href="#"></a>
+                        <p class="category-p">HOT DEAL<span class="category-span"> FOR MEN</span></p>
+                    </div>
+                    <div class="category-accesories">
+                        <a class="link-category" href="#"></a>
+                        <p class="category-p">LUXIROUS & trendy<span class="category-span"> ACCESORIES</span></p>
+                    </div>
+                    <div class="category-for-women">
+                        <a class="link-category" href="#"></a>
+                        <p class="category-p">30% offer<span class="category-span"> WOMEN</span></p>
+                    </div>
+                    <div class="category-for-kids">
+                        <a class="link-category" href="#"></a>
+                        <p class="category-p">new arrivals<span class="category-span"> FOR KIDS</span></p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <section class="Fetured_Items">
+            <div class="container">
+                <h1 class="Featured_Items">Featured Items</h1>
+                <p class="Featured_Items__text"> Shop for items based on what we featured in this week</p>
+
+
+
+
+
+
+
+
+                <div class="container-Fetured-Items">
+                    <products ref="products"></products>
+                    <error ref="error"></error>
+
+
+<!--                    <figure class="items">-->
+<!--                        <div class="items__wrapper"><img src="img/items1.png" alt="фото товара" class="items-img"><button class="items__button">Add to Cart</button></div>-->
+<!--                        <figcaption>-->
+<!--                            <a href="#" class="sku">Mango  People  T-shirt</a>-->
+<!--                            <a href="#" class="price">$52.00</a>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                    <figure class="items">-->
+<!--                        <div class="items__wrapper"><img src="img/items2.png" alt="фото товара" class="items-img"><button class="items__button">Add to Cart</button></div>-->
+<!--                        <figcaption>-->
+<!--                            <a href="#" class="sku">Mango  People  T-shirt</a>-->
+<!--                            <a href="#" class="price">$52.00</a>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                    <figure class="items">-->
+<!--                        <div class="items__wrapper"><img src="img/items3.png" alt="фото товара" class="items-img"><button class="items__button">Add to Cart</button></div>-->
+<!--                        <figcaption>-->
+<!--                            <a href="#" class="sku">Mango  People  T-shirt</a>-->
+<!--                            <a href="#" class="price">$52.00</a>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                    <figure class="items">-->
+<!--                        <div class="items__wrapper"><img src="img/items4.png" alt="фото товара" class="items-img"><button class="items__button">Add to Cart</button></div>-->
+<!--                        <figcaption>-->
+<!--                            <a href="#" class="sku">Mango  People  T-shirt</a>-->
+<!--                            <a href="#" class="price">$52.00</a>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                    <figure class="items">-->
+<!--                        <div class="items__wrapper"><img src="img/items5.png" alt="фото товара" class="items-img"><button class="items__button">Add to Cart</button>-->
+<!--    -->
+<!--                        </div>-->
+<!--                        <figcaption>-->
+<!--                            <a href="#" class="sku">Mango  People  T-shirt</a>-->
+<!--                            <a href="#" class="price">$52.00</a>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                    <figure class="items">-->
+<!--                        <div class="items__wrapper"><img src="img/items6.png" alt="фото товара" class="items-img"><button class="items__button">Add to Cart</button></div>-->
+<!--                        <figcaption>-->
+<!--                            <a href="#" class="sku">Mango  People  T-shirt</a>-->
+<!--                            <a href="#" class="price">$52.00</a>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                    <figure class="items">-->
+<!--                        <div class="items__wrapper"><img src="img/items7.png" alt="фото товара" class="items-img"><button class="items__button">Add to Cart</button></div>-->
+<!--                        <figcaption>-->
+<!--                            <a href="#" class="sku">Mango  People  T-shirt</a>-->
+<!--                            <a href="#" class="price">$52.00</a>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                    <figure class="items">-->
+<!--                        <div class="items__wrapper"><img src="img/items8.png" alt="фото товара" class="items-img"><button class="items__button">Add to Cart</button></div>-->
+<!--                        <figcaption>-->
+<!--                            <a href="#" class="sku">Mango  People  T-shirt</a>-->
+<!--                            <a href="#" class="price">$52.00</a>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                    -->
+<!--                    -->
+                </div>
+                <button class="items_All_product-buttom" type="submit">Browse All Product <i class="fas fa-long-arrow-alt-right"></i></button>
+            </div>
+        </section>
+
+</div>
+
+
+    <article class="sale-offer">
+       <div class="container">
+           <div class="container-sale-offer">
+               <div class="sale-offer_left">
+                   <a href="#" class="less__sale-offer"></a>
+                   <h1 class="sale-offer-h1">30%<span class="sale-offer-span"> Offer</span></h1>
+                   <p class="sale-offer-p">For women</p>
+               </div>
+               <div class="sale-offer_right">
+                   <div class="sale-offer_right-block">
+                       <h2 class="sale-text sale-text1">Free Delivery</h2>
+                       <p class="advantages-p p_padding">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                   </div>
+                   <div class="sale-offer_right-block">
+                       <h2 class="sale-text sale-text2">Sales & discounts</h2>
+                       <p class="advantages-p p_padding">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                   </div>
+                   <div class="sale-offer_right-block">
+                       <h2 class="sale-text sale-text3">Quality assurance</h2>
+                       <p class="advantages-p">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                   </div>
+               </div>
+            </div>
+       </div>
+    </article>
+    <article class="subscribe">
+        <div class="container container-subscribe">
+            <div class="subscribe-slider">
+                <p class="comment">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                <p class="comment-name">Bin Burhan</p>
+                <p class="comment-geo">Dhaka, Bd</p>
+                <div class="slider">
+                    <span class="slider-span"></span>
+                    <span class="slider-span-active"></span>
+                    <span class="slider-span"></span>
+                </div>
+            </div>
+            <div class="subscribe-right">
+                <h2 class="subscribe-right-h2">Subscribe</h2>
+                <h3 class="subscribe-right-h3">FOR OUR NEWLETTER AND PROMOTION</h3>
+                <form class="subscribe-form" action="#">
+                    <input class="input-Email"type="text" placeholder="Enter Your Email"><button class="subscribe-search" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </article>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="container-footer">
+            <div class="footer__logo">
+                <a class="logo" href="#"><img src="img/logo.png" alt="лого"><span class="logo_span">BRAN<span class="logo_span_pink">D</span></span></a>
+                <p class="footer__logo-text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
+                <p class="footer__logo-text">Efficiently plagiarize 24/365 action items and focused infomediaries.</p>
+                <p class="footer__logo-text">Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+            </div>
+            <div class="footer__section">
+                    <p class="footer-tit">COMPANY</p>
+                    <ul class="footer__section-ul">
+                        <li class="footer-li"><a href="#" class="footer-less">Home </a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">Shop</a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">About</a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">How It Works</a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">Contact</a></li>
+                    </ul>
+                </div>
+            <div class="footer__section">
+                    <p class="footer-tit">INFORMATION</p>
+                    <ul class="footer__section-ul">
+                        <li class="footer-li"><a href="#" class="footer-less">Tearms & Condition</a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">Privacy Policy</a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">How to Buy</a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">How to Sell</a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">Promotion</a></li>
+                    </ul>
+                </div>
+            <div class="footer__section">
+                    <p class="footer-tit">SHOP CATEGORY</p>
+                    <ul class="footer__section-ul">
+                        <li class="footer-li"><a href="#" class="footer-less">Men </a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">Women</a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">Child</a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">Apparel</a></li>
+                        <li class="footer-li"><a href="#" class="footer-less">Brows All</a></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+            <div class="copyright_network">
+                <div class="container container-copyright_network">
+                    <p class="copyright">© 2017  Brand  All Rights Reserved.</p>
+                    <div class="social-network">
+                        <a href="" class="network"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="network"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="network"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="" class="network"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="" class="network"><i class="fab fa-google-plus-g"></i></a>
+                    </div>
+                </div>
+
+        </div>
+</div>
+<script src="https://unpkg.com/vue@next"></script>
+<script src="js/main.js" type="module"></script>
+</body>
+</html>
